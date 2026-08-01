@@ -1,0 +1,31 @@
+{
+  "version": "1.2.0-beta.2",
+  "notes": "ODOC desktop preview release.\nSource: yb2020/go-sea-web@b5e18f01ebb64a0e930f389a50db4ff14fd0804e\nGo backend: yb2020/go-sea@d30da3f33df70b9a82bfcb33e22ff3e5b79848d4\nCCB sidecar: Jin-up/claude-code-myself@6b0631beea179a91cb9e761e4e5207a933f0fa1d\nWorkflow: https://github.com/yb2020/go-sea-web/actions/runs/30710318168",
+  "pub_date": "2026-08-01T18:02:13.534Z",
+  "platforms": {
+    "darwin-aarch64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOEwxdTFCb2NlRkx2SVhiUmd3VzJmc1doM2ExSys4aUNRb2ZVc29lclBwOVh4WGNRVXdjNkFla2sreTZOb2RRQzFNTXdWcE84bDFvTDQ1OVJuWjIvWmkyL2pOWCtFTWdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1NjA2MDg0CWZpbGU6T0RPQy5BSS5hcHAudGFyLmd6CmRoRWxGNTBWUkhhb2dCTWZ4V3dOalZRRGN1a3JWdm5GN3dKMXg4T1ZUa3JMMkJITFZZbG1iYVkza0Q0RTgzS3RyY1FoTjBPMXBZdExlY1pjTjdSc0FRPT0K",
+      "url": "https://github.com/yb2020/odoc/releases/download/v1.2.0-beta.2/ODOC.AI_aarch64.app.tar.gz"
+    },
+    "darwin-aarch64-app": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOEwxdTFCb2NlRkx2SVhiUmd3VzJmc1doM2ExSys4aUNRb2ZVc29lclBwOVh4WGNRVXdjNkFla2sreTZOb2RRQzFNTXdWcE84bDFvTDQ1OVJuWjIvWmkyL2pOWCtFTWdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1NjA2MDg0CWZpbGU6T0RPQy5BSS5hcHAudGFyLmd6CmRoRWxGNTBWUkhhb2dCTWZ4V3dOalZRRGN1a3JWdm5GN3dKMXg4T1ZUa3JMMkJITFZZbG1iYVkza0Q0RTgzS3RyY1FoTjBPMXBZdExlY1pjTjdSc0FRPT0K",
+      "url": "https://github.com/yb2020/odoc/releases/download/v1.2.0-beta.2/ODOC.AI_aarch64.app.tar.gz"
+    },
+    "darwin-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOEwxdTFCb2NlRk0vbzFSNG5zL21pQzYySTkybzdjaTJPUzJDc3JsVUlrMmlvUTRtN2NhaUZETnJQNEpGU3drUTVxbmFUSHhESHlhNm83ZmFrNGVPcFZaelgxY1d1ZmdJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1NjA2ODUxCWZpbGU6T0RPQy5BSS5hcHAudGFyLmd6CjAwZ0x0RTNncVpzWURxZ3cyeXdVL2Y1cWQvMW90SVYwaWJEUzVoaFgzNW9Ka3hZN3JZdUV4cnhuS2RmdUpNWURCU2V6KzZMSU9oL0JqQXJnMkwweUNRPT0K",
+      "url": "https://github.com/yb2020/odoc/releases/download/v1.2.0-beta.2/ODOC.AI_x64.app.tar.gz"
+    },
+    "darwin-x86_64-app": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOEwxdTFCb2NlRk0vbzFSNG5zL21pQzYySTkybzdjaTJPUzJDc3JsVUlrMmlvUTRtN2NhaUZETnJQNEpGU3drUTVxbmFUSHhESHlhNm83ZmFrNGVPcFZaelgxY1d1ZmdJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1NjA2ODUxCWZpbGU6T0RPQy5BSS5hcHAudGFyLmd6CjAwZ0x0RTNncVpzWURxZ3cyeXdVL2Y1cWQvMW90SVYwaWJEUzVoaFgzNW9Ka3hZN3JZdUV4cnhuS2RmdUpNWURCU2V6KzZMSU9oL0JqQXJnMkwweUNRPT0K",
+      "url": "https://github.com/yb2020/odoc/releases/download/v1.2.0-beta.2/ODOC.AI_x64.app.tar.gz"
+    },
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOEwxdTFCb2NlRk9iZE9IUUc2UnpicXVIZ2FmMkJYUjJmSVpvdWRITUVjM21RMGpLbmp4c1E2eUhPeG1vN1JWL1k0cmRZS0VaMkxTTDdqZGs3dy9iQkowdUM2UHpGQVFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1NjA3MzE2CWZpbGU6T0RPQy5BSV8xLjIuMC1iZXRhLjJfeDY0LXNldHVwLmV4ZQpRRGxjL0lqb3phdkoxTDJCd3pYdDZ3c1dGSC9rZWV2dkhPOXg0czlGckVSVTJZZWZDd01UcDVBYk5vN3ZTMkxMMHR6SE5OblNnWG9NQlIreWlhZEZEQT09Cg==",
+      "url": "https://github.com/yb2020/odoc/releases/download/v1.2.0-beta.2/ODOC.AI_1.2.0-beta.2_x64-setup.exe"
+    },
+    "windows-x86_64-nsis": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOEwxdTFCb2NlRk9iZE9IUUc2UnpicXVIZ2FmMkJYUjJmSVpvdWRITUVjM21RMGpLbmp4c1E2eUhPeG1vN1JWL1k0cmRZS0VaMkxTTDdqZGs3dy9iQkowdUM2UHpGQVFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1NjA3MzE2CWZpbGU6T0RPQy5BSV8xLjIuMC1iZXRhLjJfeDY0LXNldHVwLmV4ZQpRRGxjL0lqb3phdkoxTDJCd3pYdDZ3c1dGSC9rZWV2dkhPOXg0czlGckVSVTJZZWZDd01UcDVBYk5vN3ZTMkxMMHR6SE5OblNnWG9NQlIreWlhZEZEQT09Cg==",
+      "url": "https://github.com/yb2020/odoc/releases/download/v1.2.0-beta.2/ODOC.AI_1.2.0-beta.2_x64-setup.exe"
+    }
+  }
+}
