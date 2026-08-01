@@ -2,6 +2,19 @@
   "channel": "preview",
   "versions": [
     {
+      "version": "1.2.0-beta.2",
+      "pubDate": "2026-08-01T18:02:13.534Z",
+      "notes": "ODOC desktop preview release.\nSource: yb2020/go-sea-web@b5e18f01ebb64a0e930f389a50db4ff14fd0804e\nGo backend: yb2020/go-sea@d30da3f33df70b9a82bfcb33e22ff3e5b79848d4\nCCB sidecar: Jin-up/claude-code-myself@6b0631beea179a91cb9e761e4e5207a933f0fa1d\nWorkflow: https://github.com/yb2020/go-sea-web/actions/runs/30710318168",
+      "platforms": [
+        "darwin-aarch64",
+        "darwin-aarch64-app",
+        "darwin-x86_64",
+        "darwin-x86_64-app",
+        "windows-x86_64",
+        "windows-x86_64-nsis"
+      ]
+    },
+    {
       "version": "1.2.0-beta.1",
       "pubDate": "2026-08-01T15:35:53.023Z",
       "notes": "ODOC desktop preview release.\nSource: yb2020/go-sea-web@db970f8cb7633386ee57422c0878296cd8865339\nGo backend: yb2020/go-sea@f7d4d7c415b7fc3eceba7a9a27d927575e7a8625\nCCB sidecar: Jin-up/claude-code-myself@6b0631beea179a91cb9e761e4e5207a933f0fa1d\nWorkflow: https://github.com/yb2020/go-sea-web/actions/runs/30704747009",
