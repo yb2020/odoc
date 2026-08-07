@@ -2,6 +2,19 @@
   "channel": "preview",
   "versions": [
     {
+      "version": "1.0.0-alpha",
+      "pubDate": "2026-08-07T20:54:02.837Z",
+      "notes": "# V1.0.0\n\n## Added\n\n- 全新的 Agent 研究工作区：以持续任务为主入口，统一组织文献、计划、执行过程与研究产物。\n- 最多三个任务并行运行，支持任务排队、恢复、改名、安全删除以及子 Agent 状态追踪。\n- 长期知识沉淀与来源追踪：把阅读、笔记、翻译和对话结果保存为可复用、可定位的研究上下文。\n- Preview 自动更新通道：展示版本说明和更新状态，并提供失败恢复与一步回退能力。\n\n## Improved\n\n- 采用经过人工测试的多任务 Runtime，增强事件隔离、持久化、重放和中断恢复能力。\n- 完善 PDF 导入、全文翻译、截图批注、研究结果展示及本地客户端配置流程。\n\n## Fixed\n\n- 修复全文翻译导出可能生成损坏小文件的问题，并在下载前验证实际 PDF 内容。\n- 修复截图上传失败后的残留批注、笔记编辑异常和文献无法关闭问题。\n- 修复本地图片上传路由与鉴权缺失，以及删除文献时关联数据和任务绑定未完整清理的问题。\n- 修复向量索引删除事务可能自死锁，以及部分 Agent 能力静默失败的问题。\n- 修复 Go sidecar 字符串 ID 迁移后的兼容问题、Redis 限流结果解析风险及全量静态检查失败。",
+      "platforms": [
+        "darwin-aarch64",
+        "darwin-aarch64-app",
+        "darwin-x86_64",
+        "darwin-x86_64-app",
+        "windows-x86_64",
+        "windows-x86_64-nsis"
+      ]
+    },
+    {
       "version": "1.2.0-beta.3",
       "pubDate": "2026-08-02T03:44:55.005Z",
       "notes": "ODOC desktop preview release.\nSource: yb2020/go-sea-web@656b58fd186e40b3ab5da2973b3dcfe143b8dcd4\nGo backend: yb2020/go-sea@d30da3f33df70b9a82bfcb33e22ff3e5b79848d4\nCCB sidecar: Jin-up/claude-code-myself@6b0631beea179a91cb9e761e4e5207a933f0fa1d\nWorkflow: https://github.com/yb2020/go-sea-web/actions/runs/30730030453",
