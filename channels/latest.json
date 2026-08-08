@@ -3,10 +3,10 @@
   "release": null,
   "alpha": {
     "channel": "alpha",
-    "version": "1.0.0-alpha",
-    "endpoint": "https://github.com/yb2020/odoc/releases/download/v1.0.0-alpha/latest.json",
-    "pubDate": "2026-08-07T20:54:02.837Z",
-    "notes": "# V1.0.0\n\n## Added\n\n- 全新的 Agent 研究工作区：以持续任务为主入口，统一组织文献、计划、执行过程与研究产物。\n- 最多三个任务并行运行，支持任务排队、恢复、改名、安全删除以及子 Agent 状态追踪。\n- 长期知识沉淀与来源追踪：把阅读、笔记、翻译和对话结果保存为可复用、可定位的研究上下文。\n- Alpha 自动更新通道：展示版本说明和更新状态，并提供失败恢复与一步回退能力。\n\n## Improved\n\n- 采用经过人工测试的多任务 Runtime，增强事件隔离、持久化、重放和中断恢复能力。\n- 完善 PDF 导入、全文翻译、截图批注、研究结果展示及本地客户端配置流程。\n\n## Fixed\n\n- 修复全文翻译导出可能生成损坏小文件的问题，并在下载前验证实际 PDF 内容。\n- 修复截图上传失败后的残留批注、笔记编辑异常和文献无法关闭问题。\n- 修复本地图片上传路由与鉴权缺失，以及删除文献时关联数据和任务绑定未完整清理的问题。\n- 修复向量索引删除事务可能自死锁，以及部分 Agent 能力静默失败的问题。\n- 修复 Go sidecar 字符串 ID 迁移后的兼容问题、Redis 限流结果解析风险及全量静态检查失败。",
+    "version": "1.0.0-alpha.1",
+    "endpoint": "https://github.com/yb2020/odoc/releases/download/v1.0.0-alpha.1/latest.json",
+    "pubDate": "2026-08-08T02:33:46.161Z",
+    "notes": "# V1.0.0\n\n## Added\n\n- 全新的 Agent 研究工作区：以持续任务为主入口，统一组织文献、计划、执行过程与研究产物。\n- 最多三个任务并行运行，支持任务排队、恢复、改名、安全删除以及子 Agent 状态追踪。\n- 长期知识沉淀与来源追踪：把阅读、笔记、翻译和对话结果保存为可复用、可定位的研究上下文。\n- Alpha 自动更新通道：展示版本说明和更新状态，并提供失败恢复与一步回退能力。\n\n## Improved\n\n- 采用经过人工测试的多任务 Runtime，增强事件隔离、持久化、重放和中断恢复能力。\n- 完善 PDF 导入、全文翻译、截图批注、研究结果展示及本地客户端配置流程。\n\n## Fixed\n\n- 将更新通道统一为 Release / Alpha，并收敛为公开仓库唯一的 `channels/latest.json` 更新索引。\n- Alpha 客户端现在会按 SemVer 在 Alpha 与 Release 中选择更高版本，可从 `1.0.0-alpha.N` 自动升级至 `1.0.0`。\n- 更新检查失败时不再写入 24 小时成功节流，网络恢复后可立即重试。\n- 桌面端流水线增加 Go、Bun 与 Rust 缓存，并复用平台无关的前端和 CCB 构建结果。\n- 修复全文翻译导出可能生成损坏小文件的问题，并在下载前验证实际 PDF 内容。\n- 修复截图上传失败后的残留批注、笔记编辑异常和文献无法关闭问题。\n- 修复本地图片上传路由与鉴权缺失，以及删除文献时关联数据和任务绑定未完整清理的问题。\n- 修复向量索引删除事务可能自死锁，以及部分 Agent 能力静默失败的问题。\n- 修复 Go sidecar 字符串 ID 迁移后的兼容问题、Redis 限流结果解析风险及全量静态检查失败。",
     "platforms": [
       "darwin-aarch64",
       "darwin-aarch64-app",
@@ -17,6 +17,21 @@
     ]
   },
   "history": [
+    {
+      "channel": "alpha",
+      "version": "1.0.0-alpha.1",
+      "endpoint": "https://github.com/yb2020/odoc/releases/download/v1.0.0-alpha.1/latest.json",
+      "pubDate": "2026-08-08T02:33:46.161Z",
+      "notes": "# V1.0.0\n\n## Added\n\n- 全新的 Agent 研究工作区：以持续任务为主入口，统一组织文献、计划、执行过程与研究产物。\n- 最多三个任务并行运行，支持任务排队、恢复、改名、安全删除以及子 Agent 状态追踪。\n- 长期知识沉淀与来源追踪：把阅读、笔记、翻译和对话结果保存为可复用、可定位的研究上下文。\n- Alpha 自动更新通道：展示版本说明和更新状态，并提供失败恢复与一步回退能力。\n\n## Improved\n\n- 采用经过人工测试的多任务 Runtime，增强事件隔离、持久化、重放和中断恢复能力。\n- 完善 PDF 导入、全文翻译、截图批注、研究结果展示及本地客户端配置流程。\n\n## Fixed\n\n- 将更新通道统一为 Release / Alpha，并收敛为公开仓库唯一的 `channels/latest.json` 更新索引。\n- Alpha 客户端现在会按 SemVer 在 Alpha 与 Release 中选择更高版本，可从 `1.0.0-alpha.N` 自动升级至 `1.0.0`。\n- 更新检查失败时不再写入 24 小时成功节流，网络恢复后可立即重试。\n- 桌面端流水线增加 Go、Bun 与 Rust 缓存，并复用平台无关的前端和 CCB 构建结果。\n- 修复全文翻译导出可能生成损坏小文件的问题，并在下载前验证实际 PDF 内容。\n- 修复截图上传失败后的残留批注、笔记编辑异常和文献无法关闭问题。\n- 修复本地图片上传路由与鉴权缺失，以及删除文献时关联数据和任务绑定未完整清理的问题。\n- 修复向量索引删除事务可能自死锁，以及部分 Agent 能力静默失败的问题。\n- 修复 Go sidecar 字符串 ID 迁移后的兼容问题、Redis 限流结果解析风险及全量静态检查失败。",
+      "platforms": [
+        "darwin-aarch64",
+        "darwin-aarch64-app",
+        "darwin-x86_64",
+        "darwin-x86_64-app",
+        "windows-x86_64",
+        "windows-x86_64-nsis"
+      ]
+    },
     {
       "channel": "alpha",
       "version": "1.0.0-alpha",
